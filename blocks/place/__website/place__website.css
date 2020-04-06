@@ -1,0 +1,14 @@
+.place__website {
+  font-size: 18px;
+  line-height: 30px;
+  color: grey;
+  align-self: end;
+  grid-area: website;
+}
+
+
+@media screen and (max-width: 425px){
+  .place__website{
+   display: none;
+ }
+}

@@ -1,0 +1,23 @@
+.place__paragraph-container {
+  grid-area: paragraph-container;
+  max-width: 484px;
+}
+
+@media screen and (min-width:769px) and (max-width:1024px){
+  .place__paragraph-container{
+    max-width: 456px;
+  }
+}
+
+@media screen and (min-width:425px) and (max-width:768px){
+  .place__paragraph-container{
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 425px){
+  .place__paragraph-container{
+    margin: 24px 16px 0;
+  }
+}
+

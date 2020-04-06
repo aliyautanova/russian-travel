@@ -1,0 +1,14 @@
+.cover__bg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(42, 44, 47, .3);
+  z-index: 1; 
+}
+.cover__bg:hover{
+  background-color: rgba(42, 44, 47, .7);
+  transition: background-color 1s linear;
+}

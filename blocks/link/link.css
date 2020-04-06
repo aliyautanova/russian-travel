@@ -1,0 +1,11 @@
+@import url(./link_active/link_active.css);
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover{
+    opacity: .5;
+}
+

@@ -1,0 +1,12 @@
+@media screen and (max-width: 1024px){
+  .section-size-xl{
+    margin-left: -21px;
+    margin-right: 0px;
+  }
+}
+
+@media screen and (max-width: 375px){
+  .section-size-xl{
+    margin: 48px auto;
+  }
+}

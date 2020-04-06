@@ -1,0 +1,59 @@
+@import url(./_place/video__item_place_kamchatka.css);
+@import url(./_place/video__item_place_observatory.css);
+
+.video__item{
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+  width: 100%;
+  z-index: 1;
+}
+
+.video__item:first-of-type{
+  margin-right: 18px;
+}
+
+@media screen and (min-width: 1280px){
+  .video__item{
+    height: 323px;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1279px){
+  .video__item{
+    height: 323px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+  .video__item{
+    height: 288px;
+  }
+}
+
+@media screen and (min-width: 378px) and (max-width: 767px){
+  .video__item{
+    height: 200px;
+    max-width: 352px;
+    margin-bottom: 8px;
+  }
+  .video__item:first-of-type{
+    margin-right: 0px;
+  }
+}
+
+@media screen and (max-width:375px){
+  .video__item{
+    height: 192px;
+    margin-bottom: 8px;
+  }
+
+  .video__item:first-of-type{
+    margin-right: 0px;
+  }
+  
+  .video__item:last-of-type{
+    margin-bottom: 0; 
+  }
+}
+
