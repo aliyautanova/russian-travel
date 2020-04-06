@@ -13,4 +13,4 @@
 * HTML/CSS.
 * БЭМ, файловая структура Nested.
 * В рамках проекта применялись принципы адаптивной и отзывчивой верстки.
-* Макет веб-страницы находится в [Figma] (https://www.figma.com/file/MTZ7K0gUaN07iNIj8YCcLm/Russia-%2F-desktop-%2B-mobile?node-id=657%3A223)
+* Макет веб-страницы находится в [Figma] (https://www.figma.com/)
