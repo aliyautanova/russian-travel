@@ -6,11 +6,18 @@
   margin: 0;
 }
 
-@media screen and (max-width:768px){
+@media screen and (min-width: 425px) and (max-width:768px){
   .comment__author{
     order: 2;
-    margin-top: 17px;
-    margin-bottom: 24px;
+    margin: 17px 0 24px;
+    align-self: center;
+  }
+}
+
+@media screen and (max-width: 425px){
+  .comment__author{
+    order: 2;
+    margin: 13px 0 19px;
     align-self: center;
   }
 }

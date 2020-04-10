@@ -2,16 +2,25 @@
   font-size: 24px;
   line-height: 35px;
   text-align: center;
-  margin: 0 auto;
+  margin: 9px auto 0;
   max-width: 640px;
 }
 
-
-@media (max-width: 375px){
+@media screen and (min-width: 1024px) and (max-width: 1279px){
+  .content-subtitle{
+    margin: 30px auto 0;
+  }
+} 
+@media screen and (min-width: 768px) and (max-width:1023px){
+  .content-subtitle{
+    
+  }
+}
+@media screen and (max-width: 375px){
   .content-subtitle{
     font-size: 16px;
     line-height: 23px;
-    max-width: 100%;
+    max-width: 92%;
   }
 }
 

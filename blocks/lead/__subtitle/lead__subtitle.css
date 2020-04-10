@@ -1,28 +1,35 @@
 .lead__subtitle{
   display: block;
-  margin: 48px auto 78px;
+  margin: 37px auto 70px;
   font-size: 30px;
   line-height: 36px;
-  max-width: 583px;
+  width: 65%;
 }
-@media screen and (min-width:1024px) and (max-width:1280px){
+
+@media screen and (min-width:1025px) and (max-width:1280px){
   .lead__subtitle{
-    margin: 46px auto 65px;
+    margin: 36px auto 70px;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px){
+@media screen and (min-width: 769px) and (max-width: 1024px){
   .lead__subtitle{
-    max-width: 100%;
-    margin: 48px auto 78px;
+    width: 70%;
+    margin: 34px auto 71px;
   }
 }
 
-@media screen and (max-width: 767px){
+@media screen and (min-width:425px) and (max-width: 768px){
   .lead__subtitle{ 
-    width: 288px;
+    width: 90%;
+  }
+}
+
+@media screen and  (max-width: 425px){
+  .lead__subtitle{
     font-size: 16px;
     line-height: 23px;
-    margin: 8px auto 31px;
+    margin: 13px auto 34px;
+    width: 90%;
   }
 }

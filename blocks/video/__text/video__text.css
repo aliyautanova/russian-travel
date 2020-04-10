@@ -1,11 +1,10 @@
 .video__text{
-    display: flex;
-    flex-direction: column;
-    margin-left: 30px;
-    margin-bottom: 30px;
-  }
+  display: flex;
+  flex-direction: column;
+  margin: 0 30px 28px;
+}
 
-  @media screen and (max-width: 768px){
+@media screen and (max-width: 768px){
     .video__text{
       margin-left: 24px;
       margin-bottom: 25px;

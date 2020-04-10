@@ -1,8 +1,5 @@
 @import url(../styles/normalize.css);
 @import url(../fonts/inter.css);
-@import url(../blocks/section-size-l/section-size-l.css);
-@import url(../blocks/section-size-m/section-size-m.css);
-@import url(../blocks/section-size-xl/section-size-xl.css);
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/places/places.css);
 @import url(../blocks/place/place.css);

@@ -6,17 +6,22 @@
   line-height: 65px;
   margin: 0px;
   grid-area: title;
+  align-self: end;
 }
-
+@media screen and (min-width: 1024px) and (max-width: 1279px){
+  .place__title{
+    line-height: 64px;
+  }
+}
 @media screen and (min-width: 768px) and (max-width:1023px){
  .place__title{
   font-size: 42px;
   line-height: 46px;
-  width: 340px;
+  width: 331px;
  }
 }
 
-@media screen and (min-width: 425px) and (max-width:768px){
+@media screen and (min-width: 425px) and (max-width:767px){
  .place__title{
   font-size: 32px;
   line-height: 35px;

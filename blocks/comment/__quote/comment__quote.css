@@ -2,9 +2,13 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  margin: 42px 0 16px;
+  margin: 37px 0 12px;
 }
-
+@media screen and (min-width: 1024px) and (max-width:1280px){
+  .comment__quote{
+    margin: 37px 0 17px;
+  }
+}
 @media screen and (max-width:768px){
   .comment__quote{
     order: 3;

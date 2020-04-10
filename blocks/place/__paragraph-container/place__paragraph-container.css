@@ -1,6 +1,7 @@
 .place__paragraph-container {
   grid-area: paragraph-container;
   max-width: 484px;
+  display: block;
 }
 
 @media screen and (min-width:769px) and (max-width:1024px){
@@ -15,9 +16,17 @@
   }
 }
 
-@media screen and (max-width: 425px){
+@media screen and (min-width: 375px) and (max-width: 425px){
   .place__paragraph-container{
-    margin: 24px 16px 0;
+    width: 91%;
+    margin: 23px auto 0;
+  }
+}
+
+@media screen and (max-width:374px){
+  .place__paragraph-container{
+    width: 90%;
+    margin: 21px auto 0;
   }
 }
 

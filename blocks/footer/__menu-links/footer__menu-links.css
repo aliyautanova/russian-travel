@@ -1,0 +1,13 @@
+.footer__menu-links{
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  vertical-align: bottom;
+}
+
+@media screen and (max-width: 767px){
+  .footer__menu-links{
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,24 @@
+.footer__menu-link{
+  display: inline-block;
+  padding: 0;
+  list-style-type: none; 
+  margin-right: 20px;
+}
+
+@media screen and (min-width: 376px) and (max-width:768px){
+  .footer__menu-link{
+    font-size: 16px;
+    line-height: 27px;
+  }
+}
+
+@media screen and (max-width:375px){
+  .footer__menu-link{
+    font-size: 24px;
+    line-height: 41px;
+    margin-bottom: 14px;
+  }
+  .footer__menu-link:last-of-type{
+    margin-bottom: 0;
+  }
+}
